@@ -30,7 +30,7 @@ It will be interesting to see how the movie industry adapts to these challenges 
 
 
 ## PROBLEM STATEMENT
-Microsoft sees all the big comapanies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
+The entertainment world is a tricky world to navigate if not well prepared. We are going to focus on identify what genres of movies are doing the best, Investigate whether directors and actors influence films and relationship between movie budgets and total gross of the movie. 
 
 
 ## MAIN OBJECTIVE
@@ -84,9 +84,9 @@ We are interested in mainly three aspects:
 
 - From 5.1 we have discovered that the genre with the highest number of movies with a rating of 9.0 and above are documentaries with over 700 films. It was followed by drama, comedies, biography, adventure, action, crime. Coming in last are game-shows.
 
-- From 5.2 we had to set out to see if we can see directors and actors have influence on films and can make them succesful. We found that directors and actors can actually influence movies as per our findings where films with a rating of 9.0  and above some directors had several films in the category which also true with actors too. You might have spotted the name Leanardo DiCaprio who is a popular actor.
+- From 5.2 we had to set out to see if we can see directors and actors have influence on films and can make them succesful. We found that directors and actors can actually influence movies as per our findings where films with a rating of 9.0  and above some directors had several films in the category which also true with actors too.
 
-- From 5.3 we were investigating to see if there is a relation between movie_budgets and total_gross. total_gross is important as in every business venture profits are important as well. We found that as the movie budget tends to increase total gross also increases. By visualizing the graph you can see it. From the correlation calculations we find that movie budget and total gross are positively related.
+- From 5.3 we were investigating to see if there is a relation between movie_budgets and total_gross. total_gross is important as in every business venture profits are important as well. We found that as the movie budget tends to increase total gross also increases. By visualizing the graph you can see it. From the correlation calculations we find that movie budget and total gross are positively related. There is no direct relationship.
 
 
 ## RECOMMENDATIONS
@@ -96,3 +96,7 @@ We are interested in mainly three aspects:
 - The company should seek out famous or succesful directors and actors for its films. Actors and directors play a crucial role in the success of a movie. The director determines the creative vision and makes all of the film's biggest decisions. They are responsible for directing the actors and ensuring that their performances are consistent with the overall vision of the film. The director's relationship with the actors is critical to the success of the film. Actors also have a significant impact on movies. A great actor can save bad material, but bad acting can destroy an awesome script. Actors need at least the illusion that their own imaginations have full freedom. The director's efforts are naturally affected by the length of time given to rehearsals.
 
 - The company should be ready to spend and invest in the new venture. The budget of a film includes all costs related to the development, production, and post-production of the film. This includes costs such as acquiring the script, payments to talent, and production costs. The budget plays a dominant role throughout the film's cycle with implications going far beyond the mere cost of the film. The budget of a film can affect many aspects of the production. For example, a high budget movie is almost always financed by a film studio and is synonymous with blockbuster cinema. The project type and genre also a big role in the structure of your accounts and sub-accounts on your film budget breakdown.
+
+## CEO PRESENTATION
+
+[Google Slides](https://docs.google.com/presentation/d/1hNxHZmzyJ_26LvfTzN5gcytO4c2yO1QEQ8ePMYqy828/edit#slide=id.g24b8a38cb50_0_88)
