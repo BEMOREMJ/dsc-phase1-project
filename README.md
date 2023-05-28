@@ -54,7 +54,7 @@ We have been provided with data from different sources:
 
 All the data is related we just have to figure out how to use it by finding a relation between them. The data is in csv format we will use the appropriate method to extract them.
 
-###Notebook Structure
+### Notebook Structure
 -Reading the data
 -Data Wrangling
 -Exploratory Data Analysis
@@ -62,11 +62,37 @@ All the data is related we just have to figure out how to use it by finding a re
 -Recommendations
 
 ## METHODOLOGY
+### - Data Wrangling
 
+Data provided wasn't clean so we had to perform some cleaning where some rows had null values were dropped, some columns were also dropped. Some of the data type wasn't in the desired format so we had to change them using the appropriate formats. Some tables were also joined for better EDA.
+
+### - EDA
+
+We are interested in mainly three aspects:
+- Types of genres
+- Directors and actors
+- Movie Budgets
+
+1. On types of genres we are investigating which types of genres are most likely to achieve the highest rating. And which ones come in last. We employed visualization of filtered data of types of genres with rating of 9.0 and above.
+
+2. On directors and actors we are investigating how directors and actors can affect the movie. We employed visualization of filtered data of films with a rating of 9.0 and above.
+
+3. On movie budgets we invetigate the relationship between movie budgets and the total gross to examine the linear relationship between the two. We employed visualization and correlation.
 
 
 ## CONCLUSION
 
+- From 5.1 we have discovered that the genre with the highest number of movies with a rating of 9.0 and above are documentaries with over 700 films. It was followed by drama, comedies, biography, adventure, action, crime. Coming in last are game-shows.
+
+- From 5.2 we had to set out to see if we can see directors and actors have influence on films and can make them succesful. We found that directors and actors can actually influence movies as per our findings where films with a rating of 9.0  and above some directors had several films in the category which also true with actors too. You might have spotted the name Leanardo DiCaprio who is a popular actor.
+
+- From 5.3 we were investigating to see if there is a relation between movie_budgets and total_gross. total_gross is important as in every business venture profits are important as well. We found that as the movie budget tends to increase total gross also increases. By visualizing the graph you can see it. From the correlation calculations we find that movie budget and total gross are positively related.
 
 
 ## RECOMMENDATIONS
+
+- The company should go for a documentary or drama or comedy genre-based film as it starts up the new film division. This more likely to be recognised and liked by people as a result the company new division will get recognition. The genre of a movie can also affect the target audience and the overall tone of the film. Different genres have different conventions and expectations. 
+
+- The company should seek out famous or succesful directors and actors for its films. Actors and directors play a crucial role in the success of a movie. The director determines the creative vision and makes all of the film's biggest decisions. They are responsible for directing the actors and ensuring that their performances are consistent with the overall vision of the film. The director's relationship with the actors is critical to the success of the film. Actors also have a significant impact on movies. A great actor can save bad material, but bad acting can destroy an awesome script. Actors need at least the illusion that their own imaginations have full freedom. The director's efforts are naturally affected by the length of time given to rehearsals.
+
+- The company should be ready to spend and invest in the new venture. The budget of a film includes all costs related to the development, production, and post-production of the film. This includes costs such as acquiring the script, payments to talent, and production costs. The budget plays a dominant role throughout the film's cycle with implications going far beyond the mere cost of the film. The budget of a film can affect many aspects of the production. For example, a high budget movie is almost always financed by a film studio and is synonymous with blockbuster cinema. The project type and genre also a big role in the structure of your accounts and sub-accounts on your film budget breakdown.
